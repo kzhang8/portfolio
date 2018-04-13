@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color:#eeeeee;
+}
+
+h1 {
+  font-family: Cambria;
+  width:100%;
+  text-align:center;
+  margin-top:50px;
+  color: #111111;
+}
+	  
+p {
+  font-family: Cambria; 
+  color: #111111;
+}
+
+a:link, a:visited {
+  font-family: Cambria; 
+  color:#3333CC;
+}
+
+a:active {
+  font-family: Cambria;
+  color:#DD0000;
+}
+
+a:hover {
+  font-family: Cambria; 
+  color:#111111;
+}
+	  
+a:hover .thumbnail {
+  background-color:#336699;  
+}
+
+#wrapper {
+  width: 900px;
+  margin: 0px auto 50px auto;
+  background-color:#EEEEEE;
+  height: 100%;
+ 
+}
+	  
+.thumbnail {
+  width: 150px;
+  background-color: #CCCCCC;
+  float: left;
+  padding: 25px;
+  margin:50px 50px 0px 50px;;
+}
+
+.thumbnail p {
+  text-align:center;
+}
+
+
+
+
